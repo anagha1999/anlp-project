@@ -1,0 +1,14 @@
+id,dominant_lexicon,dominant_embedding
+1,,sanctity.virtue
+2,fairness.vice,sanctity.virtue
+3,loyalty.virtue,sanctity.virtue
+4,care.vice,sanctity.virtue
+5,,sanctity.virtue
+6,,sanctity.virtue
+7,,sanctity.virtue
+8,authority.virtue,care.virtue
+9,care.vice,sanctity.virtue
+10,care.vice,sanctity.virtue
+11,,sanctity.virtue
+12,,sanctity.virtue
+13,,sanctity.virtue
