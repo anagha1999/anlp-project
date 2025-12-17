@@ -6,7 +6,7 @@ This repository contains code and analysis for studying moral foundations across
 
 ### Root Directory
 
-- **ANLP_project.ipynb**: Main project notebook containing comprehensive analysis and experiments.
+- **ANLP_project.ipynb**: Notebook containing Master Moral Vector generation for English used as a reference for creating Tamil and Kannada MFD.
 - **Cross_Cultural_Statistical_Analysis.ipynb**: Statistical analysis comparing moral foundations across different languages and cultures.
 - **mfd2.0.dic**: Original Moral Foundations Dictionary version 2.0 used as reference for English language analysis.
 - **master_vectors_all_languages.pkl**: Aggregated word embedding vectors across all three languages for cross-linguistic comparison.
@@ -20,7 +20,7 @@ Contains English language analysis pipeline and outputs.
 
 - **2.English_Text_Preprocessing.ipynb**: Data cleaning and preprocessing for English text corpus.
 - **3.English_Moral_Scoring.ipynb**: Moral foundations scoring implementation for English texts.
-- **5.Lexicon_Based_Comparison.ipynb**: Comparison between generated moral lexicon and baseline dictionary.
+- **5.Lexicon_Based_Comparison.ipynb**: Comparison between domainant morals in embedding vs lexicon methods.
 - **english_master_moral_vectors.pkl**: Trained word embeddings for moral foundations in English.
 - **dataEnglish/**: Raw English language datasets.
 - **processedDataEnglish/**: Cleaned and preprocessed English text data.
@@ -31,11 +31,11 @@ Contains English language analysis pipeline and outputs.
 Contains Tamil language analysis pipeline and outputs.
 
 - **1a.Generate_Tamil_MFD.ipynb**: Initial approach for generating Tamil Moral Foundations Dictionary.
-- **1b.Generate_Tamil_MFD.ipynb**: Alternative approach for generating Tamil Moral Foundations Dictionary.
+- **1b.Generate_Tamil_MFD.ipynb**: To create the individual mfd and pickel files for Tamil Moral Foundations Dictionary.
 - **2.Clean_Preprocess_Tamil_Dataset.ipynb**: Data cleaning and preprocessing for Tamil text corpus.
 - **3.Moral_Foundations_Tamil.ipynb**: Moral foundations scoring implementation for Tamil texts.
 - **4.Eval_MFD.ipynb**: Evaluation of generated Tamil Moral Foundations Dictionary.
-- **5.Lexicon_Based_Comparison.ipynb**: Comparison between generated moral lexicon and baseline approaches.
+- **5.Lexicon_Based_Comparison.ipynb**: Comparison between domainant morals in embedding vs lexicon methods.
 - **5b.Sample_Tamil_Units.ipynb**: Sampling and evaluation of Tamil text units for validation.
 - **5b.PoemTamil-Human1Evaluation-Human2EvaluationRanked-Agreement-Notes.csv**: Human evaluation data for Tamil poems with inter-annotator agreement metrics.
 - **tamil_mfd.dic**: Generated Moral Foundations Dictionary for Tamil language.
