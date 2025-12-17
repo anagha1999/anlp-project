@@ -1,0 +1,4 @@
+Language,Top_1,Top_1_Score,Top_2,Top_2_Score,Top_3,Top_3_Score
+Tamil,sanctity.virtue,0.5166417885714286,sanctity.vice,0.4952639471428571,care.virtue,0.47889186285714286
+Kannada,sanctity.virtue,0.490617395,authority.virtue,0.470913305,care.virtue,0.45372239000000003
+English,sanctity.virtue,0.28623863666666666,care.virtue,0.27995411333333337,authority.virtue,0.2759073716666667
