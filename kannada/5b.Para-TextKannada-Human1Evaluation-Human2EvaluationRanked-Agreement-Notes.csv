@@ -1,0 +1,51 @@
+"Para #","Text (Kannada)","Human 1 Evaluation","Human 2 Evaluation Ranked","Agreement","Notes"
+"1","ಕಾಲ ಬಂದಾಗ ಬರೋಣ 81 …","authority.virtue
+loyalty.virtue
+fairness.virtue","authority.virtue
+loyalty.virtue
+fairness.virtue","✓ Yes","Perfect alignment across all three ranks; strong hierarchical and group loyalty themes"
+"2","ಮಾತು ಕೇಳಿದ ಮ್ಯಾಲೆ ರೂಮಿನತ್ರಕ್ಕೆ' ಬಂದ್ಳು …","sanctity.virtue
+authority.virtue
+care.virtue","care.virtue
+sanctity.virtue
+authority.virtue","✗ No","All three morals present in both but ranked differently; transformation/purity vs nurturing emphasis"
+"3","ಗಂಡ ಹೆಂಡತಿ 183 …","care.virtue
+loyalty.virtue
+fairness.virtue","care.virtue
+authority.virtue
+loyalty.virtue","✓ Yes","Both agree on care; H1 emphasizes fairness while H2 emphasizes authority/hierarchy"
+"4","160 ಜನಪದ ಕಥೆಗಳು …","authority.virtue
+loyalty.virtue
+sanctity.virtue","fairness.virtue
+loyalty.virtue
+care.virtue","✗ No","Loyalty appears in both (rank 2); divergent on primary moral (authority vs fairness)"
+"5","148 ಜನಪದ ಕಥೆಗಳು …","care.virtue
+fairness.virtue
+authority.virtue","care.virtue
+authority.virtue
+sanctity.virtue","✓ Yes","Care and authority overlap; H1 sees fairness while H2 identifies sanctity/purity themes"
+"6","102 ಜನಪದ ಕಥೆಗಳು …","fairness.vice
+authority.vice
+care.vice","authority.virtue
+loyalty.virtue
+care.virtue","✗ No","Major disagreement on virtue/vice framing; both identify authority and care but opposite valences"
+"7","72 ಜನಪದ ಕಥೆಗಳು …","loyalty.virtue
+authority.virtue
+care.virtue","sanctity.virtue
+care.virtue
+loyalty.virtue","✗ No","All three morals overlap but ranked differently; blessing/transformation vs family loyalty focus"
+"8","೪೧. ಜಯುಸೇನನ ಕಥೆ …","fairness.virtue
+authority.virtue
+care.virtue","fairness.virtue
+authority.virtue
+loyalty.virtue","✓ Yes","Strong agreement on fairness and authority; H1 sees care while H2 identifies loyalty"
+"9","60 ಜನಪದ ಕಥೆಗಳು …","care.virtue
+authority.virtue
+sanctity.vice","care.virtue
+sanctity.virtue
+authority.virtue","✓ Yes","Care dominant for both; disagreement on sanctity (vice vs virtue) and authority ranking"
+"10","೨೦೬ ಸ್ತ್ರೀ ನೀತಿ ಕಥೆಗಳು …","authority.virtue
+loyalty.virtue
+sanctity.virtue","authority.virtue
+loyalty.virtue
+sanctity.virtue","✓ Yes","Perfect alignment; military/divine authority themes with group loyalty and sacred duty"
