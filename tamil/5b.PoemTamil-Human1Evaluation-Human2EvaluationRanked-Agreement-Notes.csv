@@ -1,0 +1,54 @@
+,,,,,
+Text_Name,Unit_ID,Tamil_Text,Human 1 Evaluation,Human 2 Evaluation Ranked,Agreement
+Thirukkural,1036,தொழுதுண்டு பின்செல் பவர். பலகுடை நீழலும் தங்குடைக்கீழ்க் காண்பர்,"loyalty.virtue
+authority.virtue
+fairness.virtue","authority.virtue, loyalty.virtue, care.virtue
+
+",✓ Yes
+Moothurai,25,நஞ்சுடைமை தானறிந்து நாகம் கரந்துறையும் அஞ்சாப் புறங்கிடக்கும் நீர்ப்பாம்பு - நெஞ்சில் கரவுடையார் தம்மைக் கரப்பர் கரவார் கரவிலா நெஞ்சத் தவர்.,"loyalty.virtue
+care.virtue
+fairness.virtue
+","sanctity.vice, fairness.vice, care.vice
+
+",✗ No
+Aathichoodi,52,செய்வன திருந்தச் செய்.,"care.virtue
+fairness.virtue
+sanctity.virtue","fairness.virtue, care.virtue, sanctity.virtue
+
+",✓ Yes
+Thirukkural,1245,நினைத்தொன்று சொல்லாயோ நெஞ்சே எனைத்தொன்றும் எவ்வநோய் தீர்க்கும் மருந்து.,"care.virtue
+fairness.virtue
+sanctity.virtue
+","care.virtue, fairness.virtue, sanctity.virtue
+
+",✓ Yes
+Thirukkural,290,மற்றைய தேற்றா தவர். கள்வார்க்குத் தள்ளும் உயிர்நிலை கள்வார்க்குத்,"fairness.vice
+care.vice
+loyalty.vice
+","fairness.vice, sanctity.vice, care.vice
+
+",✗ No
+Thirukkural,228,ஈத்துவக்கும் இன்பம் அறியார்கொல் தாமுடைமை வைத்திழக்கும் வன்க ணவர்.,"care.vice
+fairness.vice
+sanctity.vice
+","care.vice, fairness.vice, loyalty.vice
+
+",✗ No
+Thirukkural,184,கண்ணின்று கண்ணறச் சொல்லினும் சொல்லற்க முன்னின்று பின்நோக்காச் சொல்.,"care.virtue
+fairness.virtue
+loyalty.virtue
+","care.virtue, fairness.virtue, sanctity.virtue
+
+",✓ Yes
+Thirukkural,12,துப்பார்க்குத் துப்பாய துப்பாக்கித் துப்பார்க்குத் துப்பாய தூஉம் மழை.,"care.virtue
+sanctity.virtue
+fairness.virtue
+","fairness.virtue, care.virtue, sanctity.virtue
+
+",✓ Yes
+Thirukkural,1235,சிறுமை நமக்கொழியச் சேட்சென்றார் உள்ளி நறுமலர் நாணின கண்.,"loyalty.virtue
+care.virtue
+sanctity.virtue
+","loyalty.virtue, care.virtue, sanctity.virtue
+
+",✓ Yes

@@ -1,0 +1,11 @@
+Text_Name,Unit_ID,Tamil_Text,1st_Moral,1st_Score,2nd_Moral,2nd_Score,3rd_Moral,3rd_Score
+Thirukkural,1036,தொழுதுண்டு பின்செல் பவர். பலகுடை நீழலும் தங்குடைக்கீழ்க் காண்பர்,authority.virtue,0.5032,sanctity.virtue,0.4906,sanctity.vice,0.4839
+Moothurai,25,நஞ்சுடைமை தானறிந்து நாகம் கரந்துறையும் அஞ்சாப் புறங்கிடக்கும் நீர்ப்பாம்பு - நெஞ்சில் கரவுடையார் தம்மைக் கரப்பர் கரவார் கரவிலா நெஞ்சத் தவர்.,sanctity.vice,0.6241,sanctity.virtue,0.5432,authority.virtue,0.5142
+Aathichoodi,52,செய்வன திருந்தச் செய்.,sanctity.virtue,0.5260,care.virtue,0.5157,authority.virtue,0.5026
+Thirukkural,1245,நினைத்தொன்று சொல்லாயோ நெஞ்சே எனைத்தொன்றும் எவ்வநோய் தீர்க்கும் மருந்து.,sanctity.virtue,0.5152,care.virtue,0.5107,sanctity.vice,0.4686
+Thirukkural,290,மற்றைய தேற்றா தவர். கள்வார்க்குத் தள்ளும் உயிர்நிலை கள்வார்க்குத்,fairness.vice,0.6693,loyalty.vice,0.6331,sanctity.vice,0.6149
+Thirukkural,228,ஈத்துவக்கும் இன்பம் அறியார்கொல் தாமுடைமை வைத்திழக்கும் வன்க ணவர்.,sanctity.vice,0.5853,fairness.vice,0.5775,sanctity.virtue,0.5438
+Thirukkural,184,கண்ணின்று கண்ணறச் சொல்லினும் சொல்லற்க முன்னின்று பின்நோக்காச் சொல்.,sanctity.virtue,0.5636,authority.vice,0.5524,sanctity.vice,0.5472
+Thirukkural,12,துப்பார்க்குத் துப்பாய துப்பாக்கித் துப்பார்க்குத் துப்பாய தூஉம் மழை.,sanctity.vice,0.3843,care.vice,0.3677,sanctity.virtue,0.3384
+Thirukkural,1235,சிறுமை நமக்கொழியச் சேட்சென்றார் உள்ளி நறுமலர் நாணின கண்.,sanctity.virtue,0.6335,sanctity.vice,0.6245,authority.virtue,0.6111
+Moothurai,6,உற்ற இடத்தில் உயிர்வழங்கும் தன்மையோர் பற்றலரைக் கண்டால் பணிவரோ - கற்றூண் பிளந்திறுவ தல்லால் பெரும்பாரம் தாங்கின் தளர்ந்து வளையுமோ தான்.,care.virtue,0.6028,sanctity.virtue,0.5544,loyalty.virtue,0.5412
