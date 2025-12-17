@@ -96,6 +96,101 @@ The analysis pipeline follows a consistent structure across all three languages:
 
 Cross-cultural analysis is performed by aggregating results from all three languages and conducting statistical comparisons.
 
+## Execution Order
+
+To reproduce the analysis, execute notebooks in the following order:
+
+### 1. Initial Setup - Generate English Master Moral Vectors
+
+```
+ANLP_project.ipynb
+```
+
+- Generates English master moral vectors from MFD 2.0
+- Output: `english_master_moral_vectors.pkl`
+- This creates reference vectors used for all languages
+
+### 2. Language-Specific Pipelines
+
+For each language, run notebooks in numerical order. The three language pipelines can be executed in parallel.
+
+#### Tamil Pipeline
+
+1. **Generate Tamil MFD** (requires GPU)
+   - `tamil/1a.Generate_Tamil_MFD.ipynb` - Translates English MFD to Tamil
+   - `tamil/1b.Generate_Tamil_MFD.ipynb` - Creates Tamil MFD and pickle files
+   - Outputs: `tamil_mfd.pkl`, `tamil_mfd.dic`, `tamil_master_moral_vectors.pkl`
+
+2. **Preprocess Dataset**
+   - `tamil/2.Clean_Preprocess_Tamil_Dataset.ipynb`
+   - Outputs: CSV files in `tamil-csv/`
+
+3. **Moral Foundations Scoring**
+   - `tamil/3.Moral_Foundations_Tamil.ipynb`
+   - Outputs: Results in `tamil-step3-results/`
+
+4. **Evaluate MFD** (optional)
+   - `tamil/4.Eval_MFD.ipynb`
+
+5. **Lexicon-Based Comparison** (optional)
+   - `tamil/5.Lexicon_Based_Comparison.ipynb`
+   - `tamil/5b.Sample_Tamil_Units.ipynb`
+
+#### Kannada Pipeline
+
+1. **Generate Kannada MFD** (requires GPU)
+   - `kannada/1.Generate_Kannada_MFD.ipynb`
+   - Outputs: `kannada_mfd.pkl`, `kannada_mfd.dic`, `kannada_master_moral_vectors.pkl`
+
+2. **Preprocess Dataset**
+   - `kannada/2.Clean_Preprocess_Kannada_Dataset.ipynb`
+   - Outputs: CSV files in `kannada-csv/` and `kannada-pre-processed/`
+
+3. **Moral Foundations Scoring**
+   - `kannada/3.Moral_Foundations_Kannada.ipynb`
+   - Outputs: Results in `phase3_outputs/`
+
+4. **Evaluate MFD** (optional)
+   - `kannada/4.Eval_MFD.ipynb`
+
+5. **Lexicon-Based Comparison** (optional)
+   - `kannada/5a.Eval_Moral_Extraction_Lexicon.ipynb`
+
+#### English Pipeline
+
+1. **Skip step 1** (uses existing `mfd2.0.dic`)
+
+2. **Preprocess Dataset**
+   - `english/2.English_Text_Preprocessing.ipynb`
+   - Outputs: CSV files in `processedDataEnglish/`
+
+3. **Moral Foundations Scoring**
+   - `english/3.English_Moral_Scoring.ipynb`
+   - Outputs: Results in `english-step3-results/`
+
+4. **Lexicon-Based Comparison** (optional)
+   - `english/5.Lexicon_Based_Comparison.ipynb`
+
+### 3. Cross-Cultural Analysis
+
+After completing steps 1-3 for all languages, run:
+
+```
+Cross_Cultural_Statistical_Analysis.ipynb
+```
+
+- Requires output from step 3 of all language pipelines
+- Performs statistical comparison of moral foundations across cultures
+- Outputs: Cross-cultural comparison visualizations and CSV files
+
+```
+MFD_Cross_Language_Validation.ipynb
+```
+
+- Requires MFD files from step 1 of all language pipelines
+- Validates that Tamil/Kannada translations preserve semantic similarity with English
+- Outputs: Cross-language similarity metrics and visualizations
+
 ## Data Formats
 
 - **.ipynb**: Jupyter notebooks containing analysis code and documentation.
@@ -107,3 +202,5 @@ Cross-cultural analysis is performed by aggregating results from all three langu
 ## Requirements
 
 This project uses Python with standard data science libraries including pandas, numpy, scikit-learn, and matplotlib. Jupyter notebook environment is required for running analysis notebooks.
+
+Note: Generating the Moral Foundations Dictionary (MFD) for Tamil and Kannada requires a GPU to run.
